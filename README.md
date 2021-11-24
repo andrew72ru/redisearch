@@ -2,12 +2,12 @@
 
 **This is a light weight, CMS/Framework agnostic client for RediSearch**
 
-#### For RediSearch version 1.0, please use [version 1.0.2](https://github.com/front/redisearch/releases/tag/1.0.2)
+#### For RediSearch version 1.0, please use [version 1.0.2](https://github.com/andrew72ru/redisearch/releases/tag/1.0.2)
  
 ### How to use
 First, you will need to install and configure [Redis](https://redis.io/topics/quickstart) and [RediSearch](https://oss.redislabs.com/redisearch/Quick_Start/).
 
-Then add this package to your project via `composer require front/redisearch`.
+Then add this package to your project via `composer require andrew72ru/redisearch`.
 
 For all kind of operations, first step is to connect to redis server:
 

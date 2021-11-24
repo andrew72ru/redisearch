@@ -772,6 +772,9 @@ class Index {
         $newArray[ $redisArray[$i] ] = $redisArray[$i + 1];
 
       } elseif ( gettype( $redisArray[$i + 1] ) === 'array' && !empty( $redisArray[$i + 1] ) ) {
+          if (\gettype($redisArray[$i]) === 'array') {
+              continue;
+          }
         $newArray[ $redisArray[$i] ] = $this->normalizeInfoArray( $redisArray[$i + 1] );
       }
     }
